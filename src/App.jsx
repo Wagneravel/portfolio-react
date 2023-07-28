@@ -1,9 +1,13 @@
-
+import { Dashboard } from "./components/Dashboard";
+import { Techs } from "./components/Techs";
+import { GlobalStyle } from "./styles/global";
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <GlobalStyle />
+      <Dashboard />
+      <Techs />
+    </>
   );
 }
 
