@@ -22,6 +22,10 @@ export const BoxResume = styled.div`
   justify-content: flex-start;
   gap: 20px;
 
+
+  @media (max-width: 1000px) {
+    width: 90%;
+  }
   @media only screen and (max-width: 600px) {
   }
 
@@ -59,7 +63,15 @@ export const Title = styled.h1`
   font-weight: bold;
 
   @media only screen and (max-width: 600px) {
-    
+    font-size: 50px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    font-size: 40px;
+  }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 30px;
   }
 `;
 export const BoxLinks = styled.div`
@@ -67,8 +79,9 @@ export const BoxLinks = styled.div`
   justify-content: flex-start;
   gap: 10px;
 
-  @media only screen and (max-width: 600px) {
-    
+  @media only screen and (max-width: 500px) {
+    gap: 5px;
+    flex-direction: column;
   }
 
   @media screen and (min-width: 700px) and (max-width: 1240px) {
@@ -94,6 +107,7 @@ export const Link = styled.a`
   }
 
   @media only screen and (max-width: 600px) {
+
     
   }
 
@@ -109,6 +123,10 @@ export const Photo = styled.img`
 
   :hover {
     filter: grayscale(0);
+  }
+
+  @media (max-width: 1000px) {
+    display: none;
   }
 
   @media only screen and (max-width: 600px) {

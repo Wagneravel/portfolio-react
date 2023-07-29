@@ -8,7 +8,11 @@ export const HeaderContainer = styled.header`
   font-family: "Poppins", sans-serif;
   height: 120px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
+    flex-direction: column;
+    gap: 5px;
+  }
+  @media screen and (min-width: 700px) and (max-width: 1100px) {
   }
 `;
 export const Box = styled.div`
@@ -28,13 +32,21 @@ export const Name = styled.span`
   font-size: 19px;
   font-weight: bold;
 
-  @media screen and (min-width: 700px) and (max-width: 1240px) {
+  @media only screen and (max-width: 500px) {
+    font-size: 30px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 20px;
   }
 `;
 export const Sub = styled.span`
   font-size: 12px;
   letter-spacing: 0.1rem;
 
-  @media screen and (min-width: 700px) and (max-width: 1240px) {
+  @media only screen and (max-width: 500px) {
+    font-size: 20px;
+  }
+  @media only screen and (max-width: 350px) {
+    font-size: 13px;
   }
 `;

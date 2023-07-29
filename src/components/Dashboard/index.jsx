@@ -7,7 +7,7 @@ import { ContainerDashboard, BoxResume, Name, Title, Description, BoxLinks, Link
 const my = {
   name: "Wagner Avelino",
   Title: "Desenvolvedor Web full stack Javascript",
-  Description: "Sou Wagner Avelino, um desenvolvedor web apaixonado e em constante evolução na área. Minha jornada começou com a formação na renomada Kenzie Academy como Desenvolvedor Web Full Stack, onde aprimorei minhas habilidades em JavaScript, TypeScript, React e Node.js. Atualmente, estou empenhado em ampliar meus conhecimentos acadêmicos, cursando Análise e Desenvolvimento de Sistemas, com previsão de formatura em junho de 2025. Ao longo do caminho, tive a oportunidade de trabalhar em projetos freelancers, o que me proporcionou experiência prática e fortaleceu meu portfólio. Sou movido por desafios e estou sempre em busca de soluções criativas para problemas complexos. Comprometido com a excelência no desenvolvimento de software, estou aberto a novas oportunidades para contribuir em projetos inovadores e fazer parte de uma equipe apaixonada por tecnologia."
+  Description: "Sou Wagner Avelino, desenvolvedor web Full Stack formado pela Kenzie Academy, com expertise em JavaScript, TypeScript, React e Node.js. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas, com previsão de formatura em junho de 2025. Com experiência em projetos freelancers, busco novas oportunidades para contribuir em projetos inovadores e fazer parte de uma equipe apaixonada por tecnologia."
 }
 
 export const Dashboard = () => {

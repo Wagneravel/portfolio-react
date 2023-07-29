@@ -9,8 +9,10 @@ export const ContainerTechs = styled.ul`
   margin-top: 80px;
   width: 90%;
   box-sizing: border-box;
+  height: 150px;
+  flex-wrap: wrap;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 760px) {
   }
 
   @media screen and (min-width: 700px) and (max-width: 1240px) {

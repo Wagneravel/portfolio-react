@@ -10,7 +10,8 @@ export const ContainerProjects = styled.div`
   letter-spacing: 0.1rem;
   margin: 0 auto;
   padding: 10px;
-  margin-top: 10em;
+  margin-top: 5em;
+  
 
   @media only screen and (max-width: 600px) {
     
@@ -35,6 +36,9 @@ export const List = styled.ol`
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin-bottom: 150px;
+  margin-top: 40px;
+  overflow-x: scroll;
 
   @media only screen and (max-width: 600px) {
   }
@@ -74,7 +78,7 @@ export const Img = styled.img`
   border-radius: 10px;
   filter: grayscale(1);
   height: 260px;
-  
+
   :hover {
     filter: grayscale(0);
   }
