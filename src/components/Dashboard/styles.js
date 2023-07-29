@@ -6,7 +6,8 @@ export const ContainerDashboard = styled.div`
   align-items: center;
   font-family: "Poppins", sans-serif;
   height: 120%;
-  margin-top: 80px;
+  margin-top: 60px;
+  
 
   @media only screen and (max-width: 600px) {
   }

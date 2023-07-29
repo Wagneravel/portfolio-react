@@ -20,6 +20,10 @@ import { ContainerTechs, ItemList , NameTech, ImgTech } from "./styles.js"
 export const Techs = () => {
   const techsList = [
     {
+      name: "TypeScript",
+      img: TS,
+    },
+    {
       name: "ReactJS",
       img: ReactJS,
     },
@@ -28,8 +32,8 @@ export const Techs = () => {
       img: JS,
     },
     {
-      name: "TypeScript",
-      img: TS,
+      name: "NodeJS",
+      img: imgNode,
     },
     {
       name: "HTML5",
@@ -38,10 +42,6 @@ export const Techs = () => {
     {
       name: "CSS3",
       img: CSS3,
-    },
-    {
-      name: "NodeJS",
-      img: imgNode,
     },
     { 
       name: "Python",
