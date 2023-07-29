@@ -23,7 +23,7 @@ export const BoxResume = styled.div`
   gap: 20px;
 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1050px) {
     width: 90%;
   }
   @media only screen and (max-width: 600px) {
@@ -125,7 +125,7 @@ export const Photo = styled.img`
     filter: grayscale(0);
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1050px) {
     display: none;
   }
 

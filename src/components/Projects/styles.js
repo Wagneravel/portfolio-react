@@ -22,7 +22,8 @@ export const ContainerProjects = styled.div`
   }
 `;
 export const Title = styled.h2`
-  font-size: 40px;
+  font-size: 60px;
+  font-weight: 700;
   margin-bottom: 1rem;
 
   @media only screen and (max-width: 600px) {
@@ -39,6 +40,7 @@ export const List = styled.ol`
   margin-bottom: 150px;
   margin-top: 40px;
   overflow-x: scroll;
+  gap: 15px;
 
   @media only screen and (max-width: 600px) {
   }

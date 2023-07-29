@@ -52,11 +52,3 @@ export const ImgTech = styled.img`
   @media screen and (min-width: 700px) and (max-width: 1240px) {
   }
 `;
-
-// height: 100px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-evenly;
-//     flex-direction: row;
-//     width: 90%;
-//     box-sizing: border-box;

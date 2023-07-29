@@ -37,7 +37,7 @@ export const Projects = () => {
   return (
     <>
       <ContainerProjects>
-        <Title id="h2">Meus Projetos</Title>
+        <Title id="h2">Projetos</Title>
          <List>
           {projectsList.map((project, index) => (
             <Li key={index}>
